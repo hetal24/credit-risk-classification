@@ -6,11 +6,11 @@
 
 ## Data and Variables
 
-    The dataset consists of financial information related to loan applicants. The target variable is loan_status, where:
+The dataset consists of financial information related to loan applicants. The target variable is loan_status, where:
 
-    * 0 represents a healthy loan
+* 0 represents a healthy loan
 
-    * 1 represents a high-risk loan
+* 1 represents a high-risk loan
 
 * The features (X) include various financial attributes of the loan applicants, excluding loan_status. The distribution of the target variable is examined using value_counts() to understand the balance of the dataset.
 
@@ -18,15 +18,15 @@
 
 The machine learning analysis follows these steps:
 
-    1. Data Preprocessing – Load and inspect the dataset, separate features and labels.
+1. Data Preprocessing – Load and inspect the dataset, separate features and labels.
 
-    2. Train-Test Split – Split the dataset into training and testing sets.
+2. Train-Test Split – Split the dataset into training and testing sets.
 
-    3. Model Selection – Use Logistic Regression for classification.
+3. Model Selection – Use Logistic Regression for classification.
 
-    4. Model Training – Train the model using the training dataset.
+4. Model Training – Train the model using the training dataset.
 
-    5. Model Evaluation – Assess the model using a confusion matrix, accuracy score, and classification report.
+5. Model Evaluation – Assess the model using a confusion matrix, accuracy score, and classification report.
 
 ## Results
 
